@@ -2,14 +2,13 @@
   "name": "thecommerceshop/typesensesearch-magento-2",
   "description": "Typesense Search integration for Magento 2",
   "type": "magento2-module",
+  "version": "1.0.0",
   "license": [
      "OSL-3.0",
      "AFL-3.0"
    ],
-  "version": "1.0.0",
   "minimum-stability": "dev",
   "require": {
-    "magento/framework": ">=100.0.0",
     "php-http/curl-client":"^2.3",
     "typesense/typesense-php": "^4.9"
   },
