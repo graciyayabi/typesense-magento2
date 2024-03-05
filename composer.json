@@ -1,17 +1,15 @@
 {
-  "name": "thecommerceshop/typesensesearch-magento-2",
+  "name": "thecommerceshop/typesensesearch",
   "description": "Typesense Search integration for Magento 2",
   "type": "magento2-module",
-  "version": "1.0.0",
-  "license": [
-     "OSL-3.0",
-     "AFL-3.0"
-   ],
-  "minimum-stability": "dev",
   "require": {
     "php-http/curl-client":"^2.3",
     "typesense/typesense-php": "^4.9"
   },
+  "license": [
+     "OSL-3.0",
+     "AFL-3.0"
+   ],
   "autoload": {
     "files": [ "registration.php" ],
     "psr-4": {
